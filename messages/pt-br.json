@@ -1,0 +1,241 @@
+{
+  "pages": {
+    "login": {
+      "title": "Bem-vindo de volta!",
+      "subtitle": "Faça login para acessar sua conta.",
+      "form": {
+        "email": {
+          "label": "Email",
+          "placeholder": "Insira o seu email",
+          "errors": {
+            "required": "O campo é obrigatório",
+            "email": "O email inserido não é válido"
+          }
+        },
+        "password": {
+          "label": "Senha",
+          "placeholder": "Insira a sua senha",
+          "errors": {
+            "required": "O campo é obrigatório",
+            "minLength": "A senha precisa ter pelo menos 8 caracteres"
+          }
+        },
+        "action": "Acessar conta",
+        "forgot-password": "Esqueceu sua senha?",
+        "register": {
+          "label": "Criar conta",
+          "text": "Ainda não tem uma conta?"
+        }
+      },
+      "announcement": "Com a Iluckpay, você tem <style>agilidade</style>,  <style>praticidade</style> e <style>conveniência</style> em cada transação."
+    },
+
+    "signup": {
+      "title": "Criar conta",
+      "subtitle": "Preencha os campos abaixo para criar sua conta.",
+      "form": {
+        "name": {
+          "label": "Nome completo",
+          "placeholder": "Insira o seu nome completo",
+          "errors": {
+            "required": "O campo é obrigatório"
+          }
+        },
+        "email": {
+          "label": "Email",
+          "placeholder": "Insira o seu email",
+          "errors": {
+            "required": "O campo é obrigatório",
+            "email": "O email inserido não é válido"
+          }
+        },
+        "password": {
+          "label": "Senha",
+          "placeholder": "Insira a sua senha",
+          "errors": {
+            "required": "O campo é obrigatório",
+            "minLength": "A senha precisa ter pelo menos 8 caracteres"
+          }
+        },
+        "password-confirmation": {
+          "label": "Confirme sua senha",
+          "placeholder": "Insira a senha novamente",
+          "errors": {
+            "required": "O campo é obrigatório",
+            "minLength": "A senha precisa ter pelo menos 8 caracteres",
+            "match": "As senhas não coincidem"
+          }
+        },
+        "terms-of-products": {
+          "label": "Tenho conhecimento e estou ciente dos produtos considerados <link>restritos e proibidos</link>",
+          "errors": {
+            "required": "Você precisa aceitar os termos e condições"
+          }
+        },
+        "login": {
+          "label": "Acessar",
+          "text": "Já tem conta?"
+        },
+        "terms-of-service": {
+          "label": "*Ao criar uma conta, você concorda com os <linkTerms>termos de uso</linkTerms> e <linkPolicy>política de privacidade</linkPolicy> do Iluckpay "
+        }
+      },
+      "announcement": "Simplifique seus pagamentos e conquiste <style>o Sucesso</style> com as soluções práticas do <style>Iluckpay!</style>"
+    },
+
+    "forgot-password": {
+      "back-to-login": "Voltar para o login",
+      "steps": {
+        "step-one": {
+          "title": "Esqueceu a senha?",
+          "subtitle": "Preencha o email que você usou para se registrar para redefinir sua senha.",
+          "form": {
+            "label": "Email",
+            "placeholder": "Insira o seu email",
+            "errors": {
+              "required": "O campo é obrigatório",
+              "email": "O email inserido não é válido"
+            },
+            "action": "Redefinir senha"
+          }
+        },
+        "step-two": {
+          "title": "Código de validação",
+          "subtitle": "Em alguns instantes, o código de verificação chegara ao seu e-mail.",
+          "form": {
+            "errors": {
+              "required": "O campo é obrigatório",
+              "email": "O email inserido não é válido"
+            },
+            "action": "Redefinir senha"
+          }
+        },
+        "step-three": {
+          "title": "Crie sua nova senha",
+          "subtitle": "A senha deve conter pelo menos 8 dígitos.",
+          "form": {
+            "password": {
+              "label": "Nova senha",
+              "placeholder": "Insira sua nova senha",
+              "errors": {
+                "required": "O campo é obrigatório",
+                "email": "O email inserido não é válido"
+              }
+            },
+            "password-confirmation": {
+              "label": "Confirme a nova senha",
+              "placeholder": "Insira a nova senha novamente",
+              "errors": {
+                "required": "O campo é obrigatório",
+                "email": "O email inserido não é válido"
+              }
+            },
+            "action": "Redefinir senha"
+          }
+        },
+        "success": {
+          "span": "Tudo pronto!",
+          "title": "Senha redefinida com sucesso!",
+          "subtitle": "Você pode agora fazer login com sua nova senha."
+        }
+      }
+    },
+
+    "home": {
+      "seo": {
+        "title": "Iluckpay | A melhor forma de pagar com o seu cartão",
+        "description": "Iluckpay é uma plataforma de pagamentos de alta performance e confiabilidade, que simplifica o seu fluxo de caixa."
+      },
+      "title": "Bem vindo, ",
+      "overview": "Visão geral",
+      "export": "Exportar",
+      "anticipateWithdraw": "Antecipar saque",
+      "metrics": {
+        "item-one": {
+          "title": "Saldo",
+          "growth": "do último mês"
+        },
+        "item-two": {
+          "title": "Faturamento",
+          "growth": "do último mês"
+        },
+        "item-three": {
+          "title": "Receita",
+          "growth": "do último mês"
+        },
+        "item-four": {
+          "title": "Carrinhos abandonados",
+          "growth": "do último mês"
+        }
+      },
+      "charts": {
+        "item-one": {
+          "title": "Sales",
+          "subtitle": ""
+        }
+      }
+    },
+
+    "orders": {},
+
+    "products": {},
+
+    "checkout": {
+      "checkout-tabs": {
+      "header": "Cabeçalho",
+      "footer": "Rodapé",
+      "summary": "Resumo",
+      "appearance": "Aparência",
+      "rules": "Regras"
+      }
+    },
+
+    "marketing": {},
+
+    "integrations": {}
+  },
+
+  "common": {
+    "theme-switcher": {
+      "label": "Idioma",
+      "pt-br": "Português (BR)",
+      "en-US": "Inglês (US)",
+      "pt-pt": "Português (PT)"
+    },
+    "menu-sidebar": {
+      "home": "Home",
+      "dashboard": "Dashboard",
+      "marketing": "Marketing",
+      "orders": "Pedidos",
+      "settings": "Configurações",
+      "checkout": "Checkout",
+      "finance": "Finance",
+      "integrations": "Integrações",
+      "notifications": "Notificações",
+      "groups": {
+        "adjustment": "Ajustes"
+      },
+      "products": "Produtos",
+      "payments": "Pagamentos",
+      "support": "Suporte",
+      "users": "Usuários",
+      "signOut": "Sair",
+      "financial": "Financeiro",
+      "stores": "Lojas",
+      "addNewStore": "Cadastrar nova loja",
+      "user-nav": {
+        "account": "Minha conta",
+        "wallet": "Carteira",
+        "sign-out": "Sair"
+      }
+    },
+    "legal": {
+      "copyright": "Iluckpay <date></date> © Todos os direitos reservados",
+      "links": {
+        "terms-of-products": "Produtos restritos",
+        "terms-of-service": "Termos de uso",
+        "privacy-policy": "Política de privacidade"
+      }
+    }
+  }
+}

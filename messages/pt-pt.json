@@ -1,0 +1,199 @@
+{
+  "pages": {
+    "login": {
+      "title": "Bem-vindo de volta!",
+      "subtitle": "Faça login para aceder à sua conta.",
+      "form": {
+        "email": {
+          "label": "Email",
+          "placeholder": "Insira o seu email",
+          "errors": {
+            "required": "O campo é obrigatório",
+            "email": "O email inserido não é válido"
+          }
+        },
+        "password": {
+          "label": "Senha",
+          "placeholder": "Insira a sua senha",
+          "errors": {
+            "required": "O campo é obrigatório",
+            "minLength": "A palavra-passe precisa ter pelo menos 8 caracteres"
+          }
+        },
+        "action": "Acessar conta",
+        "forgot-password": "Esqueceu a palavra-passe?",
+        "register": {
+          "label": "Criar conta",
+          "text": "Ainda não tem uma conta?"
+        }
+      },
+      "announcement": "Com a Iluckpay, você tem <style>agilidade</style>,  <style>praticidade</style> e <style>conveniência</style> em cada transação."
+    },
+
+    "signup": {
+      "title": "Criar conta",
+      "subtitle": "Preencha os campos abaixo para criar a sua conta.",
+      "form": {
+        "name": {
+          "label": "Nome completo",
+          "placeholder": "Insira o seu nome completo",
+          "errors": {
+            "required": "O campo é obrigatório"
+          }
+        },
+        "email": {
+          "label": "Email",
+          "placeholder": "Insira o seu email",
+          "errors": {
+            "required": "O campo é obrigatório",
+            "email": "O email inserido não é válido"
+          }
+        },
+        "password": {
+          "label": "Palavra-passe",
+          "placeholder": "Insira a sua palavra-passe",
+          "errors": {
+            "required": "O campo é obrigatório",
+            "minLength": "A palavra-passe precisa ter pelo menos 8 caracteres"
+          }
+        },
+        "password-confirmation": {
+          "label": "Confirme a sua palavra-passe",
+          "placeholder": "Insira a palavra-passe novamente",
+          "errors": {
+            "required": "O campo é obrigatório",
+            "minLength": "A palavra-passe precisa ter pelo menos 8 caracteres",
+            "match": "As palavras-passe não coincidem"
+          }
+        },
+        "terms-of-products": {
+          "label": "Tenho conhecimento e estou ciente dos produtos considerados <link>restritos e proibidos</link>",
+          "errors": {
+            "required": "Você precisa aceitar os termos e condições"
+          }
+        },
+        "login": {
+          "label": "Acessar",
+          "text": "Já tem conta?"
+        },
+        "terms-of-service": {
+          "label": "*Ao criar uma conta, você concorda com os <linkTerms>termos de uso</linkTerms> e <linkPolicy>política de privacidade</linkPolicy> do Iluckpay"
+        }
+      },
+      "announcement": "Simplifique os seus pagamentos e conquiste <style>o Sucesso</style> com as soluções práticas do <style>Iluckpay!</style>"
+    },
+
+    "forgot-password": {
+      "back-to-login": "Voltar para o login",
+      "steps": {
+        "step-one": {
+          "title": "Esqueceu a senha?",
+          "subtitle": "Preencha o email que você usou para se registrar para redefinir sua senha.",
+          "form": {
+            "label": "Email",
+            "placeholder": "Insira o seu email",
+            "errors": {
+              "required": "O campo é obrigatório",
+              "email": "O email inserido não é válido"
+            },
+            "action": "Redefinir senha"
+          }
+        },
+        "step-two": {
+          "title": "Código de validação",
+          "subtitle": "Em alguns instantes, o código de verificação chegará ao seu e-mail.",
+          "form": {
+            "label": "Email",
+            "placeholder": "Insira o seu email",
+            "errors": {
+              "required": "O campo é obrigatório",
+              "email": "O email inserido não é válido"
+            },
+            "action": "Redefinir senha"
+          }
+        },
+        "step-three": {
+          "title": "Crie sua nova senha",
+          "subtitle": "A senha deve conter pelo menos 8 dígitos.",
+          "form": {
+            "password": {
+              "label": "Nova senha",
+              "placeholder": "Insira sua nova senha",
+              "errors": {
+                "required": "O campo é obrigatório"
+              }
+            },
+            "password-confirmation": {
+              "label": "Confirme a nova senha",
+              "placeholder": "Insira a nova senha novamente",
+              "errors": {
+                "required": "O campo é obrigatório"
+              }
+            },
+            "action": "Redefinir senha"
+          }
+        },
+        "success": {
+          "span": "Tudo pronto!",
+          "title": "Senha redefinida com sucesso!",
+          "subtitle": "Você pode agora fazer login com sua nova senha."
+        }
+      }
+    },
+
+    "checkout": {
+      "checkout-tabs": {
+        "header": "Cabeçalho",
+        "footer": "Rodapé",
+        "summary": "Resumo",
+        "appearance": "Aparência",
+        "rules": "Regras"
+      }
+    }
+  
+  },
+  "common": {
+    "theme-switcher": {
+      "label": "Localidade",
+      "pt-br": "Português (BR)",
+      "en-US": "Inglês (US)",
+      "pt-pt": "Português (PT)"
+    },
+    "menu-sidebar": {
+      "home": "Início",
+      "dashboard": "Painel de Controle",
+      "marketing": "Marketing",
+      "orders": "Pedidos",
+      "settings": "Configurações",
+      "finance": "Finance",
+      "checkout": "Checkout",
+      "integrations": "Integrações",
+      "notifications": "Notificações",
+      "groups": {
+        "adjustment": "Ajustes"
+      },
+      "products": "Produtos",
+      "payments": "Pagamentos",
+      "support": "Suporte",
+      "users": "Utilizadores",
+      "signOut": "Sair",
+      "financial": "Financeiro",
+      "stores": "Lojas",
+      "addNewStore": "Cadastrar nova loja",
+      "user-nav": {
+        "account": "Minha conta",
+        "wallet": "Carteira",
+        "sign-out": "Sair"
+      }
+    },
+    "sign-out": "Sair",
+    "legal": {
+      "copyright": "Iluckpay <date></date> © Todos os direitos reservados",
+      "links": {
+      "terms-of-products": "Produtos restritos",
+      "terms-of-service": "Termos de uso",
+      "privacy-policy": "Política de privacidade"
+    }
+  }
+  }
+}

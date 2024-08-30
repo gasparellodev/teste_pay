@@ -1,0 +1,197 @@
+{
+  "pages": {
+    "login": {
+      "title": "Welcome back!",
+      "subtitle": "Log in to access your account.",
+      "form": {
+        "email": {
+          "label": "Email",
+          "placeholder": "Enter your email",
+          "errors": {
+            "required": "The field is required",
+            "email": "The email entered is not valid"
+          }
+        },
+        "password": {
+          "label": "Password",
+          "placeholder": "Enter your password",
+          "errors": {
+            "required": "The field is required",
+            "minLength": "The password must be at least 8 characters long"
+          }
+        },
+        "action": "Access account",
+        "forgot-password": "Forgot password?",
+        "register": {
+          "label": "Create account",
+          "text": "Don't have an account yet?"
+        }
+      },
+      "announcement": "With Iluckpay, you have <style>agility</style>, <style>convenience</style>, and <style>ease</style> in every transaction."
+    },
+
+    "signup": {
+      "title": "Create Account",
+      "subtitle": "Fill in the fields below to create your account.",
+      "form": {
+        "name": {
+          "label": "Full Name",
+          "placeholder": "Enter your full name",
+          "errors": {
+            "required": "The field is required"
+          }
+        },
+        "email": {
+          "label": "Email",
+          "placeholder": "Enter your email",
+          "errors": {
+            "required": "The field is required",
+            "email": "The email entered is not valid"
+          }
+        },
+        "password": {
+          "label": "Password",
+          "placeholder": "Enter your password",
+          "errors": {
+            "required": "The field is required",
+            "minLength": "The password must be at least 8 characters long"
+          }
+        },
+        "password-confirmation": {
+          "label": "Confirm Your Password",
+          "placeholder": "Enter your password again",
+          "errors": {
+            "required": "The field is required",
+            "minLength": "The password must be at least 8 characters long",
+            "match": "The passwords do not match"
+          }
+        },
+        "terms-of-products": {
+          "label": "I acknowledge and am aware of the products considered <link>restricted and prohibited</link>",
+          "errors": {
+            "required": "You need to accept the terms and conditions"
+          }
+        },
+        "login": {
+          "label": "Login",
+          "text": "Already have an account?"
+        },
+        "terms-of-service": {
+          "label": "*By creating an account, you agree to Iluckpay's <linkTerms>terms of use</linkTerms> and <linkPolicy>privacy policy</linkPolicy>"
+        }
+      },
+      "announcement": "Simplify your payments and achieve <style>Success</style> with <style>Iluckpay</style>'s practical solutions!"
+    },
+    
+    "forgot-password": {
+      "back-to-login": "Back to login",
+      "steps": {
+        "step-one": {
+          "title": "Forgot Password?",
+          "subtitle": "Enter the email you used to register to reset your password.",
+          "form": {
+            "label": "Email",
+            "placeholder": "Enter your email",
+            "errors": {
+              "required": "This field is required",
+              "email": "The entered email is not valid"
+            },
+            "action": "Send code"
+          }
+        },
+        "step-two": {
+          "title": "Validation Code",
+          "subtitle": "In a few moments, the verification code will arrive in your email.",
+          "form": {
+            "label": "Email",
+            "placeholder": "Enter your email",
+            "errors": {
+              "required": "This field is required",
+              "email": "The entered email is not valid"
+            },
+            "action": "Reset Password"
+          }
+        },
+        "step-three": {
+          "title": "Create Your New Password",
+          "subtitle": "The password must be at least 8 characters long.",
+          "form": {
+            "password": {
+              "label": "New Password",
+              "placeholder": "Enter your new password",
+              "errors": {
+                "required": "This field is required"
+              }
+            },
+            "password-confirmation": {
+              "label": "Confirm New Password",
+              "placeholder": "Enter the new password again",
+              "errors": {
+                "required": "This field is required"
+              }
+            },
+            "action": "Reset Password"
+          }
+        },
+        "success": {
+          "span": "It's done!",
+          "title": "Password reset successfully!",
+          "subtitle": "You can now log in with your new password."
+        }
+      }
+    },
+
+    "checkout": {
+      "checkout-tabs": {
+        "header": "Header",
+        "footer": "Footer",
+        "summary": "Summary",
+        "appearance": "Appearance",
+        "rules": "Rules"
+      }
+    }
+  },
+  "common": {
+    "theme-switcher": {
+      "label": "Locale",
+      "pt-br": "Portuguese (BR)",
+      "en-US": "English (US)",
+      "pt-pt": "Portuguese (PT)"
+    },
+    "menu-sidebar": {
+      "home": "Home",
+      "dashboard": "Dashboard",
+      "marketing": "Marketing",
+      "orders": "Orders",
+      "finance": "Finance",
+      "settings": "Settings",
+      "checkout": "Checkout",
+      "integrations": "Integrations",
+      "notifications": "Notifications",
+      "groups": {
+        "adjustment": "Adjustment"
+      },
+      "products": "Products",
+      "payments": "Payments",
+      "support": "Support",
+      "users": "Users",
+      "signOut": "Sign Out",
+      "financial": "Financial",
+      "stores": "Stores",
+      "addNewStore": "Register new store",
+      "user-nav": {
+        "account": "My Account",
+        "wallet": "Wallet",
+        "sign-out": "Log off"
+      }
+    },
+    "legal": {
+      "copyright": "Iluckpay <date></date> © All rights reserved",
+      "links": {
+        "terms-of-products": "Restricted Products",
+        "terms-of-service": "Terms of Service",
+        "privacy-policy": "Privacy Policy"
+      }
+    }
+  }
+}
